@@ -9,6 +9,12 @@ jobs:
     steps:
       - name: Hello World
         run: echo "Hello World!"
+      - name: Touch File
+        run: touch hello.txt
+      - name: Set Text
+        run: echo "Hello World" >> hello.txt
+      - name: Read File
+        run: cat hello.txt
     
 
   other: 
