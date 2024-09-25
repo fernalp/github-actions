@@ -1,0 +1,4 @@
+name: "Lleva un name"
+
+on: ["evento"]
+
