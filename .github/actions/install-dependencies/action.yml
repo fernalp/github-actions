@@ -2,8 +2,8 @@ name: "Install Dependencies Node"
 description: "Install all dependencies for this project"
 
 runs: 
-  using: "Composite"
+  using: "composite"
 
-  -steps:
-    - name: "Hello World!"
+  steps:
+    - name: Hello World
       run: echo "Hello World"
