@@ -20,4 +20,7 @@ jobs:
 
       - name: Node Version
         run: node --version
+
+      - name: lis
+        uses: ./.github/actions/install-dependencies
     
