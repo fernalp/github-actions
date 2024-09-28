@@ -23,4 +23,6 @@ jobs:
 
       - name: lis
         uses: ./.github/actions/install-dependencies
+        with: 
+          node-version: "22"
     

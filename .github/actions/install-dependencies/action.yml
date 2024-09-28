@@ -1,10 +1,16 @@
 name: "Install Dependencies"
 description: "Install all dependencies for this project"
 
+inputs:
+  node-version: 
+    description: "The Version of Node"
+    required: true
+    default: "20.17.0"
+
 runs: 
   using: "composite"
 
   steps:
     - name: aaaaaaaaaaaa
-      run: echo "Hell"
+      run: echo "Hello World ${{ inputs.node-version }} "
       shell: bash
