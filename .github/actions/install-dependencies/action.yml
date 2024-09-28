@@ -1,9 +1,10 @@
-name: "Install Dependencies Node"
+name: "Install Dependencies"
 description: "Install all dependencies for this project"
 
 runs: 
   using: "composite"
 
   steps:
-    - name: Hello World
-      run: echo "Hello World"
+    - name: aaaaaaaaaaaa
+      run: echo "Hell"
+      shell: bash
